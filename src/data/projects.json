@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Music App",
+    "github": "https://github.com/Kunal-Kumar-Soni/MusicApp",
+    "demo": "https://music-app-kunal.vercel.app/",
+    "image": {
+      "light": "/projectsImg/MusicAppLight.png",
+      "dark": "/projectsImg/MusicAppDark.png"
+    }
+  },
+  {
+    "title": "E-commerce",
+    "github": "https://github.com/Kunal-Kumar-Soni/E-commerce",
+    "demo": "https://e-commerce-website-kunal.vercel.app/",
+    "image": {
+      "light": "/projectsImg/E-commerceLight.png",
+      "dark": "/projectsImg/E-commerceDark.png"
+    }
+  },
+
+  {
+    "title": "Notes App",
+    "github": "https://github.com/Kunal-Kumar-Soni/NoteApp",
+    "demo": "https://note-app-kunal.vercel.app/",
+    "image": {
+      "light": "/projectsImg/NotesAppLight.png",
+      "dark": "/projectsImg/NotesAppDark.png"
+    }
+  }
+]
