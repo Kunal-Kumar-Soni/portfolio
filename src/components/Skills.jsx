@@ -14,16 +14,25 @@ import {
   SiFigma,
   SiReactquery,
   SiFramer,
+  SiTypescript,
+  SiAxios,
 } from "react-icons/si";
 
 const skills = [
   { name: "HTML", icon: <FaHtml5 className="text-orange-700" /> },
   { name: "CSS", icon: <FaCss3Alt className="text-blue-500" /> },
-  { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
+  { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
+  {
+    name: "TypeScript",
+    icon: <SiTypescript className="text-blue-600" />,
+  },
   { name: "React", icon: <FaReact className="text-cyan-400" /> },
   { name: "Redux", icon: <SiRedux className="text-purple-500" /> },
-  { name: "React Query", icon: <SiReactquery className="text-red-600" /> },
+  {
+    name: "Axios",
+    icon: <SiAxios className="text-purple-500" />,
+  },
   { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
   {
     name: "GitHub",
@@ -31,7 +40,6 @@ const skills = [
   },
   { name: "Framer Motion", icon: <SiFramer className="text-pink-500" /> },
   { name: "Photoshop", icon: <SiAdobephotoshop className="text-blue-700" /> },
-  { name: "Figma", icon: <SiFigma className="text-sky-500" /> },
 ];
 
 const containerVariants = {
@@ -68,7 +76,7 @@ const Skills = () => {
           }}
           className="mb-10 font-bold text-sky-500 text-4xl md:text-5xl text-center"
         >
-          My Skills
+          Skills
         </motion.h2>
 
         <motion.div

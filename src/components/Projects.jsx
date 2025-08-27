@@ -35,7 +35,7 @@ const Projects = ({ setIsProjectsModalOpen, setProjectInfoId, modes }) => {
           viewport={{ once: false, amount: 0.3 }}
           className="mb-12 font-bold text-sky-500 text-4xl md:text-5xl text-center"
         >
-          My Projects
+          Projects
         </motion.h2>
 
         <motion.div
