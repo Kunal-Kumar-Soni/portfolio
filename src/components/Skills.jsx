@@ -7,6 +7,7 @@ import {
   FaGitAlt,
   FaGithub,
 } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 import {
   SiTailwindcss,
   SiRedux,
@@ -19,27 +20,33 @@ import {
 } from "react-icons/si";
 
 const skills = [
+  // 🌐 Web Foundations
   { name: "HTML", icon: <FaHtml5 className="text-orange-700" /> },
   { name: "CSS", icon: <FaCss3Alt className="text-blue-500" /> },
-  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
   { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
-  {
-    name: "TypeScript",
-    icon: <SiTypescript className="text-blue-600" />,
-  },
+  { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
+
+  // 🎨 Styling Framework
+  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
+
+  // ⚛️ Frontend Libraries
   { name: "React", icon: <FaReact className="text-cyan-400" /> },
   { name: "Redux", icon: <SiRedux className="text-purple-500" /> },
+  { name: "Framer Motion", icon: <SiFramer className="text-pink-500" /> },
+  { name: "Axios", icon: <SiAxios className="text-purple-500" /> },
+
+  // 🚀 Framework
   {
-    name: "Axios",
-    icon: <SiAxios className="text-purple-500" />,
+    name: "Next.js",
+    icon: <RiNextjsFill className="text-black dark:text-white" />,
   },
+
+  // 🛠️ Version Control
   { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
   {
     name: "GitHub",
     icon: <FaGithub className="text-gray-600 dark:text-gray-400" />,
   },
-  { name: "Framer Motion", icon: <SiFramer className="text-pink-500" /> },
-  { name: "Photoshop", icon: <SiAdobephotoshop className="text-blue-700" /> },
 ];
 
 const containerVariants = {
