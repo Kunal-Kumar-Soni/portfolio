@@ -1,12 +1,5 @@
 import { motion } from "framer-motion";
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaReact,
-  FaGitAlt,
-  FaGithub,
-} from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import {
   SiTailwindcss,
@@ -17,6 +10,7 @@ import {
   SiFramer,
   SiTypescript,
   SiAxios,
+  SiPrisma,
 } from "react-icons/si";
 
 const skills = [
@@ -33,13 +27,15 @@ const skills = [
   { name: "React", icon: <FaReact className="text-cyan-400" /> },
   { name: "Redux", icon: <SiRedux className="text-purple-500" /> },
   { name: "Framer Motion", icon: <SiFramer className="text-pink-500" /> },
-  { name: "Axios", icon: <SiAxios className="text-purple-500" /> },
 
   // 🚀 Framework
   {
     name: "Next.js",
     icon: <RiNextjsFill className="text-black dark:text-white" />,
   },
+
+  // 🗄️ Database ORM
+  { name: "Prisma", icon: <SiPrisma className="text-sky-600 dark:text-sky-400" /> },
 
   // 🛠️ Version Control
   { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
@@ -105,9 +101,7 @@ const Skills = () => {
               style={{}}
             >
               <div className="mb-2 text-4xl">{skill.icon}</div>
-              <p className="font-medium text-black dark:text-white text-lg text-center">
-                {skill.name}
-              </p>
+              <p className="font-medium text-black dark:text-white text-lg text-center">{skill.name}</p>
             </motion.div>
           ))}
         </motion.div>
