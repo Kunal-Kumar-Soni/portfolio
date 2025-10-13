@@ -1,17 +1,7 @@
 import { motion } from "framer-motion";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
-import {
-  SiTailwindcss,
-  SiRedux,
-  SiAdobephotoshop,
-  SiFigma,
-  SiReactquery,
-  SiFramer,
-  SiTypescript,
-  SiAxios,
-  SiPrisma,
-} from "react-icons/si";
+import { SiTailwindcss, SiRedux, SiFramer, SiTypescript, SiPrisma } from "react-icons/si";
 
 const skills = [
   // 🌐 Web Foundations
@@ -64,7 +54,7 @@ const Skills = () => {
   return (
     <section
       id="Skills"
-      className="bg-white dark:bg-[#0f172a] px-6 py-16 min-h-[80vh] text-black dark:text-white transition-colors duration-300"
+      className="bg-white dark:bg-popover px-6 py-16 min-h-[80vh] text-black dark:text-white transition-colors duration-300"
     >
       <div className="mx-auto max-w-6xl">
         <motion.h2
@@ -77,7 +67,7 @@ const Skills = () => {
             damping: 12,
             duration: 1,
           }}
-          className="mb-10 font-bold text-sky-500 text-4xl md:text-5xl text-center"
+          className="mb-10 font-bold text-black dark:text-white text-4xl md:text-5xl text-center"
         >
           Skills
         </motion.h2>
@@ -95,13 +85,13 @@ const Skills = () => {
               variants={itemVariants}
               whileHover={{
                 scale: 1.1,
-                boxShadow: "0 0 32px 3px rgba(14, 165, 233, 1)",
               }}
-              className="relative flex flex-col justify-center items-center bg-gray-100 dark:bg-[#1e293b] shadow-lg hover:shadow-sky-500/50 p-6 rounded-xl overflow-hidden transition duration-300"
-              style={{}}
+              className="relative flex flex-col justify-center items-center bg-gray-100 dark:bg-white/5 shadow-lg hover:shadow-black/50 dark:hover:shadow-white/40 p-6 border border-gray-200 dark:border-white/10 rounded-xl overflow-hidden text-black dark:text-white transition duration-300"
             >
               <div className="mb-2 text-4xl">{skill.icon}</div>
-              <p className="font-medium text-black dark:text-white text-lg text-center">{skill.name}</p>
+              <p className="font-medium text-black dark:text-white text-lg text-center">
+                {skill.name}
+              </p>
             </motion.div>
           ))}
         </motion.div>

@@ -3,12 +3,7 @@ import { useEffect, useRef } from "react";
 import { MdClose } from "react-icons/md";
 import projectsInfo from "../data/projectsInfo.json";
 
-function ProjectsModal({
-  isProjectsModalOpen,
-  setIsProjectsModalOpen,
-  modes,
-  projectInfoId,
-}) {
+function ProjectsModal({ isProjectsModalOpen, setIsProjectsModalOpen, projectInfoId }) {
   const modalRef = useRef(null);
 
   // Close modal when clicked outside
@@ -27,9 +22,7 @@ function ProjectsModal({
     };
   }, []);
 
-  const selectedProjectInfo = projectsInfo.find(
-    (projectInfo) => projectInfo.id === projectInfoId
-  );
+  const selectedProjectInfo = projectsInfo.find((projectInfo) => projectInfo.id === projectInfoId);
 
   useEffect(() => {
     if (isProjectsModalOpen) {
@@ -51,11 +44,11 @@ function ProjectsModal({
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 1.1 }}
           transition={{ duration: 0.35 }}
-          className="z-50 fixed inset-0 flex justify-center items-center bg-black/40 backdrop-blur-md px-4 sm:px-0"
+          className="z-40 fixed inset-0 flex justify-center items-center bg-black/40 backdrop-blur-md px-4 sm:px-0"
         >
           <div
             ref={modalRef}
-            className="relative bg-white dark:bg-slate-900 shadow-2xl border border-slate-300 dark:border-slate-700 rounded-2xl w-full max-w-[90%] xl:max-w-[80%] max-h-[80vh] overflow-y-auto text-slate-800 dark:text-white transition-all custom-scroll"
+            className="relative bg-white dark:bg-popover shadow-[0_0px_3px_rgba(0,0,0,0.4)] dark:shadow-[0_0px_5px_rgba(255,255,255,0.4)] rounded-2xl w-full max-w-[90%] xl:max-w-[80%] max-h-[80vh] overflow-y-auto text-slate-800 dark:text-white transition-all custom-scroll"
           >
             {/* Close Button */}
             <button
@@ -80,11 +73,7 @@ function ProjectsModal({
                 {/* Left: Image Section with highlight */}
                 <div className="group relative shadow-[0_0px_3px_rgba(0,0,0,0.4)] dark:shadow-[0_0px_5px_rgba(255,255,255,0.4)] border border-slate-300 dark:border-slate-600 rounded-xl overflow-hidden transition-shadow duration-300">
                   <img
-                    src={
-                      modes === "light"
-                        ? selectedProjectInfo.image.light
-                        : selectedProjectInfo.image.dark
-                    }
+                    src={selectedProjectInfo.image.light}
                     alt={`${selectedProjectInfo.title} Screenshot`}
                     className="rounded-xl w-full h-full object-fit transition-transform duration-500"
                   />
@@ -96,12 +85,12 @@ function ProjectsModal({
                 {/* Right: Details */}
                 <div className="space-y-4">
                   <div className="space-y-3 text-base leading-relaxed">
-                    <h3 className="font-semibold text-sky-600 dark:text-sky-400 text-lg">
-                      About This {selectedProjectInfo.title}
+                    <h3 className="font-semibold text-lg">
+                      About This {selectedProjectInfo.title} :
                     </h3>
                     <p>{selectedProjectInfo.about}</p>
 
-                    <h3 className="font-semibold text-lg">✨ Key Features</h3>
+                    <h3 className="font-semibold text-lg">✨ Key Features :</h3>
                     <ul className="space-y-1 list-none">
                       {selectedProjectInfo.features.map((feature, index) => (
                         <li key={index}>{feature}</li>
@@ -110,18 +99,14 @@ function ProjectsModal({
                   </div>
 
                   {/* Tech Stack Section */}
-                  <div className="space-y-4 bg-slate-100 dark:bg-slate-800 shadow-[0_0px_3px_rgba(0,0,0,0.4)] dark:shadow-[0_0px_5px_rgba(255,255,255,0.4)] p-4 border border-slate-300 dark:border-slate-600 rounded-xl">
-                    <h4 className="font-semibold text-sky-600 dark:text-sky-400 text-lg">
-                      🔧 Project Details
-                    </h4>
+                  <div className="space-y-4 bg-white dark:bg-popover shadow-[0_0px_3px_rgba(0,0,0,0.4)] dark:shadow-[0_0px_5px_rgba(255,255,255,0.4)] p-4 border border-slate-300 dark:border-slate-600 rounded-xl">
+                    <h4 className="font-semibold text-lg">🔧 Project Details :</h4>
 
                     <ul className="space-y-1 text-slate-700 dark:text-slate-300 text-base">
                       <li>
                         <strong>Tech Stack:</strong>{" "}
                         <span className="text-slate-900 dark:text-white">
-                          {selectedProjectInfo.techStack
-                            .map((tech) => `${tech.name}`)
-                            .join(", ")}
+                          {selectedProjectInfo.techStack.map((tech) => `${tech.name}`).join(", ")}
                         </span>
                       </li>
                       <li>
@@ -159,10 +144,7 @@ function ProjectsModal({
                           className="text-blue-600 hover:text-blue-700 dark:hover:text-blue-300 dark:text-blue-400 underline"
                         >
                           {new URL(selectedProjectInfo.github).hostname +
-                            selectedProjectInfo.github.replace(
-                              /^https:\/\/[^\/]+/,
-                              ""
-                            )}
+                            selectedProjectInfo.github.replace(/^https:\/\/[^\/]+/, "")}
                         </a>
                       </p>
                     </div>

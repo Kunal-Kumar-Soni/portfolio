@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 dark:bg-[#0f172a] px-6 py-10 text-black dark:text-white transition-colors duration-300">
+    <footer className="bg-gray-100 dark:bg-popover px-6 py-10 text-black dark:text-white transition-colors duration-300">
       <div className="flex flex-col items-center space-y-5 mx-auto max-w-6xl">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
@@ -51,8 +51,7 @@ const Footer = () => {
           viewport={{ once: false, amount: 0.3 }}
           className="text-gray-600 dark:text-gray-400 text-sm text-center transition-colors duration-300"
         >
-          &copy; {new Date().getFullYear()} Kunal Kumar Soni. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} Kunal Kumar Soni. All rights reserved.
         </motion.p>
       </div>
     </footer>

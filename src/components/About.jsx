@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="About"
-      className="flex flex-col justify-center items-center bg-white dark:bg-[#0f172a] px-6 py-20 min-h-[80vh] text-black dark:text-white transition-colors duration-300"
+      className="flex flex-col justify-center items-center bg-white dark:bg-popover px-6 py-20 min-h-[80vh] text-black dark:text-white transition-colors duration-300"
     >
       <motion.h2
         initial={{ opacity: 0, y: 50, scale: 0.8 }}
@@ -18,7 +18,7 @@ const About = () => {
           damping: 12,
           duration: 1,
         }}
-        className="mb-10 font-bold text-sky-500 text-4xl md:text-5xl text-center"
+        className="mb-10 font-bold text-black dark:text-white text-4xl md:text-5xl text-center"
       >
         About Me
       </motion.h2>
@@ -33,27 +33,21 @@ const About = () => {
         >
           <p className="mb-6 text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
             A{" "}
-            <span className="bg-sky-500/20 px-2 py-1 rounded-md font-medium text-sky-500 dark:text-sky-400">
+            <span className="bg-slate-900 dark:bg-slate-100 px-2 py-1 rounded-md font-medium text-white dark:text-black">
               Frontend Developer
             </span>{" "}
-            focused on functionality and user experience. I enjoy building
-            interactive and reliable web features that work smoothly across
-            devices and deliver real value to users.
+            focused on functionality and user experience. I enjoy building interactive and reliable
+            web features that work smoothly across devices and deliver real value to users.
           </p>
 
           <p className="text-gray-600 dark:text-gray-400 text-base">
             I build functional, responsive UIs using{" "}
-            <span className="font-medium text-black dark:text-white">
-              React.js
-            </span>{" "}
-            and{" "}
-            <span className="font-medium text-black dark:text-white">
-              Tailwind CSS
-            </span>
-            . I'm looking for a role to learn, contribute, and grow.
+            <span className="font-medium text-black dark:text-white">React.js</span> and{" "}
+            <span className="font-medium text-black dark:text-white">Tailwind CSS</span>. I'm
+            looking for a role to learn, contribute, and grow.
           </p>
 
-          <div className="flex items-center gap-2 mt-6 font-semibold text-sky-500 dark:text-sky-400 transition">
+          <div className="flex items-center gap-2 mt-6 font-semibold text-black dark:text-white transition">
             <MdArrowRightAlt size={24} />
             <span>Let’s build something awesome!</span>
           </div>
@@ -70,19 +64,14 @@ const About = () => {
           <motion.div
             whileHover={{
               scale: 1.05,
-              boxShadow: "0px 0px 20px 2px rgba(14, 165, 233, 0.9)",
             }}
             transition={{ type: "spring", stiffness: 300 }}
-            className="relative bg-gray-100/70 dark:bg-white/5 shadow-lg backdrop-blur-md p-6 border border-gray-200 dark:border-white/10 rounded-xl overflow-hidden transition-all"
+            className="relative bg-gray-100/70 dark:bg-white/5 shadow-lg hover:shadow-black/50 dark:hover:shadow-white/40 backdrop-blur-md p-6 border border-gray-200 dark:border-white/10 rounded-xl overflow-hidden transition-all"
           >
             {/* Border Animation */}
             <motion.div
-              className="absolute inset-0 border-2 border-transparent rounded-xl"
-              style={{
-                background:
-                  "linear-gradient(90deg, transparent, rgba(14, 165, 233, 0.3), transparent)",
-                backgroundSize: "200% 100%",
-              }}
+              className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(0,0,0,0.3),transparent)] dark:bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.3),transparent)] border-2 border-transparent rounded-xl"
+              style={{ backgroundSize: "200% 100%" }}
               animate={{
                 backgroundPosition: ["-100% 0", "100% 0"],
               }}
@@ -93,10 +82,7 @@ const About = () => {
               }}
             />
 
-            <FaUserGraduate
-              size={40}
-              className="mb-4 text-sky-500 dark:text-sky-400"
-            />
+            <FaUserGraduate size={40} className="mb-4 text-black dark:text-white" />
             <h4 className="mb-2 font-semibold text-black dark:text-white text-xl">
               Frontend Developer
             </h4>
@@ -109,19 +95,14 @@ const About = () => {
           <motion.div
             whileHover={{
               scale: 1.05,
-              boxShadow: "0px 0px 20px 2px rgba(14, 165, 233, 0.9)",
             }}
             transition={{ type: "spring", stiffness: 300 }}
-            className="relative bg-gray-100/70 dark:bg-white/5 shadow-lg backdrop-blur-md p-6 border border-gray-200 dark:border-white/10 rounded-xl overflow-hidden transition-all"
+            className="relative bg-gray-100/70 dark:bg-white/5 shadow-lg hover:shadow-black/50 dark:hover:shadow-white/40 backdrop-blur-md p-6 border border-gray-200 dark:border-white/10 rounded-xl overflow-hidden transition-all"
           >
             {/* Border Animation */}
             <motion.div
-              className="absolute inset-0 border-2 border-transparent rounded-xl"
-              style={{
-                background:
-                  "linear-gradient(90deg, transparent, rgba(14, 165, 233, 0.3), transparent)",
-                backgroundSize: "200% 100%",
-              }}
+              className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(0,0,0,0.3),transparent)] dark:bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.3),transparent)] border-2 border-transparent rounded-xl"
+              style={{ backgroundSize: "200% 100%" }}
               animate={{
                 backgroundPosition: ["-100% 0", "100% 0"],
               }}
@@ -132,10 +113,7 @@ const About = () => {
               }}
             />
 
-            <FaLaptopCode
-              size={40}
-              className="mb-4 text-sky-500 dark:text-sky-400"
-            />
+            <FaLaptopCode size={40} className="mb-4 text-black dark:text-white" />
             <h4 className="mb-2 font-semibold text-black dark:text-white text-xl">
               React + Tailwind
             </h4>

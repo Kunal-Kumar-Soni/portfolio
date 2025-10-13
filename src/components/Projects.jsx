@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import projects from "../data/projects.json";
-import ProjectsCard from "../ui/ProjectsCard";
+import ProjectsCard from "./ProjectsCard";
 
 // for better animations
 const containerVariants = {
@@ -16,11 +16,11 @@ const containerVariants = {
   },
 };
 
-const Projects = ({ setIsProjectsModalOpen, setProjectInfoId, modes }) => {
+const Projects = ({ setIsProjectsModalOpen, setProjectInfoId }) => {
   return (
     <section
       id="Projects"
-      className="bg-white dark:bg-[#0f172a] px-6 py-16 text-black dark:text-white transition-colors duration-300"
+      className="bg-white dark:bg-popover px-6 py-16 text-black dark:text-white transition-colors duration-300"
     >
       <div className="mx-auto max-w-6xl">
         <motion.h2
@@ -33,7 +33,7 @@ const Projects = ({ setIsProjectsModalOpen, setProjectInfoId, modes }) => {
             duration: 1,
           }}
           viewport={{ once: false, amount: 0.3 }}
-          className="mb-12 font-bold text-sky-500 text-4xl md:text-5xl text-center"
+          className="mb-12 font-bold text-4xl md:text-5xl text-center"
         >
           Projects
         </motion.h2>
@@ -51,7 +51,6 @@ const Projects = ({ setIsProjectsModalOpen, setProjectInfoId, modes }) => {
                 project={project}
                 key={index}
                 index={index}
-                modes={modes}
                 setIsProjectsModalOpen={setIsProjectsModalOpen}
                 setProjectInfoId={setProjectInfoId}
               />
