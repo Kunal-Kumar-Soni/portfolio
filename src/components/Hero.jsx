@@ -40,9 +40,9 @@ const Hero = () => {
 
           {/* Resume Button */}
           <a
-            href="/documents/Kunal's Resume.pdf.pdf"
-            download="/documents/Kunal's Resume.pdf.pdf"
-            className="group inline-flex relative items-center gap-2 px-6 py-3 border dark:border-white border-black rounded-xl overflow-hidden font-semibold text-black dark:text-white text-base md:text-lg hover:scale-105 transition-transform duration-300"
+            href="/documents/Kunal's_Resume.pdf"
+            download="/documents/Kunal's_Resume.pdf"
+            className="group inline-flex relative items-center gap-2 px-6 py-3 border border-black dark:border-white rounded-xl overflow-hidden font-semibold text-black dark:text-white text-base md:text-lg hover:scale-105 transition-transform duration-300"
           >
             {/* Removed gradient background for hover */}
 
