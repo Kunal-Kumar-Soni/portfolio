@@ -122,6 +122,24 @@ Hi, I'm **Kunal**, a passionate **Frontend Developer** from India 🇮🇳, focu
 
 ## 🧩 Featured Projects
 
+### 📝 Resume AI
+
+Resume AI is an AI-powered web application that analyzes resumes and provides ATS-friendly scores along with actionable feedback to help candidates improve their resume quality.
+
+**Features:**
+
+- Upload and analyze resumes using AI
+- Generate ATS (Applicant Tracking System) score
+- AI-based feedback on resume content and structure
+- Section-wise analysis (Skills, Experience, Education, Formatting)
+- Clean, modern, and responsive UI
+- Dark mode support
+- Smooth animations and fast performance
+
+[🔗 Live Demo](https://resume-ai-kunal.vercel.app/) • [💻 Code](https://github.com/Kunal-Kumar-Soni/ai_resume_analyser)
+
+---
+
 ### 🎧 EchoPlay — Music App
 
 A fully functional music player with playlist creation, play/pause controls, search functionality, toast notifications, and elegant UI with dark mode.
@@ -154,23 +172,6 @@ A full-fledged ecommerce UI with product listings, cart management, category fil
 - Real-time toast notifications
 
 [🔗 Live Demo](https://e-commerce-website-kunal.vercel.app/) • [💻 Code](https://github.com/Kunal-Kumar-Soni/E-commerce)
-
----
-
-### 📝 Notes App
-
-An animated, modern notes app with long-press menu, restore/delete/pin functionality, dark mode, and beautiful UI.
-
-**Features:**
-
-- Create, edit, and view notes
-- Pin and unpin notes
-- Restore or permanently delete
-- Long-press to open action menu
-- Modal view with blur background
-- Dark mode and responsive UI
-
-[🔗 Live Demo](https://note-app-kunal.vercel.app/) • [💻 Code](https://github.com/Kunal-Kumar-Soni/NoteApp)
 
 ---
 
