@@ -61,7 +61,7 @@ function ProjectsCard({ project, index, setIsProjectsModalOpen, setProjectInfoId
       <div className="flex flex-col flex-grow justify-between bg-gray-100 dark:bg-white/15 p-4 sm:p-5 rounded-b-xl">
         {/* Project Image */}
         <img
-          src={project.image.light}
+          src={project.image}
           alt={project.title}
           className="shadow-sm dark:shadow-white/20 mb-4 rounded-xl w-full h-64 lg:h-60 xl:h-64 object-cover object-top transition-shadow duration-300"
         />

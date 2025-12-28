@@ -1,25 +1,45 @@
 [
   {
     "id": 0,
+    "title": "Resume.Ai",
+    "icon": "/icons/resume-ai.png",
+    "about": "Resume.ai is an AI-powered resume analysis and improvement platform designed to help users build ATS-friendly resumes. It provides instant feedback, highlights strengths and weaknesses, and suggests actionable improvements through a clean, modern, and responsive interface.",
+    "features": [
+      "📄 Resume Upload — Upload your resume securely for instant analysis.",
+      "🤖 AI Resume Analysis — Get smart, role-specific feedback powered by AI.",
+      "📊 ATS Score — Receive an ATS compatibility score to improve shortlisting chances.",
+      "🔍 Section-wise Feedback — Detailed insights on skills, experience, projects, and formatting.",
+      "✨ Improvement Suggestions — Actionable recommendations to enhance resume quality.",
+      "🌓 Dark Mode — Smooth light and dark theme support for better readability.",
+      "⚡ Fast & Responsive UI — Optimized performance across all devices.",
+      "🔐 Secure Handling — User data handled securely with authentication support."
+    ],
+    "techStack": [
+      { "name": "Next.js", "icon": "⚡" },
+      { "name": "TypeScript", "icon": "🔷" },
+      { "name": "Tailwind CSS", "icon": "🌬️" },
+      { "name": "shadcn/ui", "icon": "🎨" },
+      { "name": "Supabase", "icon": "🛢️" },
+      { "name": "Gemini", "icon": "🤖" }
+    ],
+    "role": "Frontend Developer",
+    "year": 2025,
+    "demo": "https://resume-ai-kunal.vercel.app/",
+    "github": "https://github.com/Kunal-Kumar-Soni/ai_resume_analyser",
+    "image": "/projectsImg/Resume-Ai.png"
+  },
+  {
+    "id": 1,
     "title": "Music App",
     "icon": "/icons/music-icon.png",
     "about": "A sleek and responsive music player app to play, pause, skip songs, and manage playlists with a clean UI and smooth controls.",
     "features": [
-      "🎵 Play & Pause controls for seamless playback.",
-      "⏮️⏭️ Skip to Previous or Next song.",
-      "🔁 Support for Repeat All, Repeat One, and Shuffle modes.",
-      "🎤 Voice search to instantly find your favorite tracks.",
-      "❤️ Mark songs as Favorite and access them easily.",
-      "📃 Create, manage, and delete custom Playlists.",
-      "➕ Add or remove songs from playlists with one click.",
-      "🔍 Search songs by title or artist in real-time.",
-      "🌗 Light and dark mode toggle (saved in localStorage).",
-      "📱 Mobile-friendly UI with responsive sidebar menu.",
-      "🔄 Real-time toast notifications for user actions.",
-      "💾 Persistent data via localStorage (last played, playlists, etc).",
-      "🔝 Auto scroll-to-top on route change for smooth navigation.",
-      "⚡ Skeleton loading UI during fetch for better UX.",
-      "🎨 Smooth and interactive animations with Framer Motion."
+      "🎵 Play, pause, skip tracks with repeat and shuffle support.",
+      "🔍 Search songs by title or artist with voice search support.",
+      "📃 Create, manage playlists and mark songs as favorites.",
+      "🌗 Light and dark mode with responsive mobile-friendly UI.",
+      "🎨 Smooth animations, toast notifications, and skeleton loading UI.",
+      "💾 Persistent data storage with seamless navigation experience."
     ],
     "techStack": [
       { "name": "React", "icon": "⚛️" },
@@ -31,28 +51,19 @@
     "year": 2025,
     "github": "https://github.com/Kunal-Kumar-Soni/MusicApp",
     "demo": "https://music-app-kunal.vercel.app/",
-    "image": {
-      "light": "/projectsImg/MusicAppLight.png",
-      "dark": "/projectsImg/MusicAppDark.png"
-    }
+    "image": "/projectsImg/MusicApp.png"
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "E-commerce",
     "icon": "/icons/shopping-cart.png",
     "about": "A modern and fully responsive E-Commerce web application that allows users to browse products, filter by categories, search items, view details, and manage a shopping cart with real-time toast notifications. Built with scalability and performance in mind.",
     "features": [
-      "🔍 Search products by keyword.",
-      "📂 Browse by product categories.",
-      "🛒 Add to cart / remove from cart functionality.",
-      "➕ Increment / decrement quantity in cart.",
-      "📄 View full product details.",
-      "🌗 Light and dark mode toggle (saved in localStorage).",
-      "🔄 Real-time toast notifications on user actions.",
-      "📱 Mobile-friendly sidebar toggle.",
-      "🔝 Auto scroll-to-top on route change.",
-      "💯 Clean and scalable folder structure.",
-      "⚡ Skeleton loading UI for better user experience during data fetch."
+      "🔍 Search and browse products by category.",
+      "🛒 Add, remove, and manage cart items with quantity control.",
+      "📄 View detailed product information.",
+      "🌗 Light and dark mode with responsive mobile-friendly UI.",
+      "⚡ Smooth UX with toast notifications, skeleton loading, and auto navigation."
     ],
     "techStack": [
       { "name": "React", "icon": "⚛️" },
@@ -67,39 +78,6 @@
     "year": 2025,
     "demo": "https://e-commerce-website-kunal.vercel.app/",
     "github": "https://github.com/Kunal-Kumar-Soni/E-commerce",
-    "image": {
-      "light": "/projectsImg/E-commerceLight.png",
-      "dark": "/projectsImg/E-commerceDark.png"
-    }
-  },
-
-  {
-    "id": 2,
-    "title": "Notes App",
-    "icon": "/icons/note-logo.png",
-    "about": "This is a feature-rich note-taking application designed for quick and organized writing. You can effortlessly create new notes, pin important ones at the top, and delete or restore them when needed — all within a clean, modern, and responsive user interface.",
-    "features": [
-      "📝 Create Notes — Quickly add a title and content for each note.",
-      "📌 Pin Notes — Highlight important notes at the top.",
-      "🗑️ Trash Bin — Restore or permanently delete notes.",
-      "👁️ View Modal — Click a note to view full content in a popup.",
-      "🌙 Dark Mode — Seamlessly switch between light and dark themes.",
-      "💾 Local Storage — All notes are saved even after refresh or reload.",
-      "🌀 Press & Hold Menu — Long-press a note to access pin/edit/delete actions.",
-      "🎨 Framer Motion — Smooth animations for a modern and engaging UI."
-    ],
-    "techStack": [
-      { "name": "React", "icon": "⚛️" },
-      { "name": "Tailwind CSS", "icon": "🌬️" },
-      { "name": "Framer Motion", "icon": "🎞️" }
-    ],
-    "role": "Frontend Developer",
-    "year": 2025,
-    "demo": "https://note-app-kunal.vercel.app/",
-    "github": "https://github.com/Kunal-Kumar-Soni/NoteApp",
-    "image": {
-      "light": "/projectsImg/NotesAppLight.png",
-      "dark": "/projectsImg/NotesAppDark.png"
-    }
+    "image": "/projectsImg/E-commerce.png"
   }
 ]

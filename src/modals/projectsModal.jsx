@@ -73,7 +73,7 @@ function ProjectsModal({ isProjectsModalOpen, setIsProjectsModalOpen, projectInf
                 {/* Left: Image Section with highlight */}
                 <div className="group relative shadow-[0_0px_3px_rgba(0,0,0,0.4)] dark:shadow-[0_0px_5px_rgba(255,255,255,0.4)] border border-slate-300 dark:border-slate-600 rounded-xl overflow-hidden transition-shadow duration-300">
                   <img
-                    src={selectedProjectInfo.image.light}
+                    src={selectedProjectInfo.image}
                     alt={`${selectedProjectInfo.title} Screenshot`}
                     className="rounded-xl w-full h-full object-fit transition-transform duration-500"
                   />

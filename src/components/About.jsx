@@ -41,10 +41,10 @@ const About = () => {
           </p>
 
           <p className="text-gray-600 dark:text-gray-400 text-base">
-            I build functional, responsive UIs using{" "}
-            <span className="font-medium text-black dark:text-white">React.js</span> and{" "}
-            <span className="font-medium text-black dark:text-white">Tailwind CSS</span>. I'm
-            looking for a role to learn, contribute, and grow.
+            I build responsive UIs using{" "}
+            <span className="font-medium text-black dark:text-white">Next.js</span>,{" "}
+            <span className="font-medium text-black dark:text-white">TypeScript</span>, and{" "}
+            <span className="font-medium text-black dark:text-white">Tailwind CSS</span>.
           </p>
 
           <div className="flex items-center gap-2 mt-6 font-semibold text-black dark:text-white transition">
@@ -115,10 +115,10 @@ const About = () => {
 
             <FaLaptopCode size={40} className="mb-4 text-black dark:text-white" />
             <h4 className="mb-2 font-semibold text-black dark:text-white text-xl">
-              React + Tailwind
+              Next.js + TypeScript
             </h4>
             <p className="text-gray-700 text-md dark:text-gray-400">
-              Built using component-driven React and utility-first Tailwind CSS.
+              Built with Next.js, TypeScript, and utility-first Tailwind CSS.
             </p>
           </motion.div>
         </motion.div>
