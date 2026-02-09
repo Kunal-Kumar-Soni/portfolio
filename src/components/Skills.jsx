@@ -1,7 +1,14 @@
 import { motion } from "framer-motion";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
-import { SiTailwindcss, SiRedux, SiFramer, SiTypescript, SiPrisma } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiRedux,
+  SiFramer,
+  SiTypescript,
+  SiPrisma,
+  SiShadcnui,
+} from "react-icons/si";
 
 const skills = [
   // 🌐 Web Foundations
@@ -12,11 +19,11 @@ const skills = [
 
   // 🎨 Styling Framework
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
+  { name: "Shadcn Ui", icon: <SiShadcnui /> },
 
   // ⚛️ Frontend Libraries
   { name: "React", icon: <FaReact className="text-cyan-400" /> },
   { name: "Redux", icon: <SiRedux className="text-purple-500" /> },
-  { name: "Framer Motion", icon: <SiFramer className="text-pink-500" /> },
 
   // 🚀 Framework
   {
@@ -25,13 +32,13 @@ const skills = [
   },
 
   // 🗄️ Database ORM
-  { name: "Prisma", icon: <SiPrisma className="text-sky-600 dark:text-sky-400" /> },
+  { name: "Prisma", icon: <SiPrisma /> },
 
   // 🛠️ Version Control
   { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
   {
     name: "GitHub",
-    icon: <FaGithub className="text-gray-600 dark:text-gray-400" />,
+    icon: <FaGithub />,
   },
 ];
 
