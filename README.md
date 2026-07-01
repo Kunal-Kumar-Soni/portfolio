@@ -1,25 +1,25 @@
-# 👋 Kunal Kumar Soni — Frontend Developer
+# Kunal Kumar Soni — Frontend Developer
 
 Hi, I'm **Kunal**, a passionate **Frontend Developer** from India 🇮🇳, focused on building clean, modern, and performant web interfaces using **React** and **Tailwind CSS**. I love crafting interactive UI with smooth UX and real-world functionality.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
-- ⚛️ React.js
-- ⚡ Next.js
-- 🧩 TypeScript
-- 🎨 shadcn/ui
-- 💨 Tailwind CSS
-- 🔄 Redux
-- 🌐 HTML5 & CSS3
-- 🧰 Git & GitHub
+- React.js
+- Next.js
+- TypeScript
+- shadcn/ui
+- Tailwind CSS
+- Redux
+- HTML5 & CSS3
+- Git & GitHub
 
 ---
 
-## 🧩 Featured Projects
+## Featured Projects
 
-### 📝 Resume AI
+### Resume AI
 
 Resume AI is an AI-powered web application that analyzes resumes and provides ATS-friendly scores along with actionable feedback to help candidates improve their resume quality.
 
@@ -33,11 +33,11 @@ Resume AI is an AI-powered web application that analyzes resumes and provides AT
 - Dark mode support
 - Smooth animations and fast performance
 
-[🔗 Live Demo](https://resume-ai-kunal.vercel.app/) • [💻 Code](https://github.com/Kunal-Kumar-Soni/ai_resume_analyser)
+[Live Demo](https://resume-ai-kunal.vercel.app/) • [Code](https://github.com/Kunal-Kumar-Soni/ai_resume_analyser)
 
 ---
 
-### 🎧 EchoPlay — Music App
+### EchoPlay — Music App
 
 A fully functional music player with playlist creation, play/pause controls, search functionality, toast notifications, and elegant UI with dark mode.
 
@@ -51,11 +51,11 @@ A fully functional music player with playlist creation, play/pause controls, sea
 - Smooth animations (Framer Motion)
 - Responsive & mobile-friendly
 
-[🔗 Live Demo](https://music-app-kunal.vercel.app) • [💻 Code](https://github.com/Kunal-Kumar-Soni/MusicApp)
+[Live Demo](https://music-app-kunal.vercel.app) • [Code](https://github.com/Kunal-Kumar-Soni/MusicApp)
 
 ---
 
-### 🛒 E-commerce App
+### E-commerce App
 
 A full-fledged ecommerce UI with product listings, cart management, category filters, and responsive design.
 
@@ -68,11 +68,11 @@ A full-fledged ecommerce UI with product listings, cart management, category fil
 - Light/dark mode toggle
 - Real-time toast notifications
 
-[🔗 Live Demo](https://e-commerce-website-kunal.vercel.app/) • [💻 Code](https://github.com/Kunal-Kumar-Soni/E-commerce)
+[Live Demo](https://e-commerce-website-kunal.vercel.app/) • [Code](https://github.com/Kunal-Kumar-Soni/E-commerce)
 
 ---
 
-## 🌟 What I Focus On
+## What I Focus On
 
 - Reusable Components & Clean Architecture
 - Smooth UI/UX Animations (Framer Motion)
@@ -83,16 +83,16 @@ A full-fledged ecommerce UI with product listings, cart management, category fil
 
 ---
 
-## 📬 Let's Connect
+## Let's Connect
 
-- 📧 Email: [kunal.codes24@gmail.com](mailto:kunal.codes24@gmail.com)
-- 🧑‍💻 GitHub: [(https://github.com/your-github)](https://github.com/Kunal-Kumar-Soni)
-- 💼 LinkedIn: [(https://linkedin.com/in/yourprofile)](https://www.linkedin.com/in/kunal-kumar-soni/)
-- 🌐 Portfolio: (https://kunal-kumar-soni.vercel.app/)
+- Email: [kunal.codes24@gmail.com](mailto:kunal.codes24@gmail.com)
+- GitHub: [(https://github.com/your-github)](https://github.com/Kunal-Kumar-Soni)
+- LinkedIn: [(https://linkedin.com/in/yourprofile)](https://www.linkedin.com/in/kunal-kumar-soni/)
+- Portfolio: (https://kunal-kumar-soni.vercel.app/)
 
 ---
 
-## 🙌 Thank You for Visiting!
+## Thank You for Visiting!
 
 I’m constantly learning and building new things. If you liked my work or have any feedback, feel free to connect.  
 Let's collaborate and build something awesome together!
