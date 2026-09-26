@@ -11,9 +11,6 @@ Hi, I'm **Kunal**, a passionate **Frontend Developer** from India 🇮🇳, focu
 - TypeScript
 - shadcn/ui
 - Tailwind CSS
-- Redux
-- HTML5 & CSS3
-- Git & GitHub
 
 ---
 
@@ -25,9 +22,3 @@ Hi, I'm **Kunal**, a passionate **Frontend Developer** from India 🇮🇳, focu
 - Portfolio: (https://kunal-kumar-soni.vercel.app/)
 
 ---
-
-## Thank You for Visiting!
-
-I’m constantly learning and building new things. If you liked my work or have any feedback, feel free to connect.  
-Let's collaborate and build something awesome together!
-=======
